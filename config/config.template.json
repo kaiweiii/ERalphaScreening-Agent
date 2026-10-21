@@ -1,0 +1,21 @@
+{
+  "status": "TEMPLATE_REQUIRES_VERIFICATION",
+  "experiment": "ERalpha agonist ensemble docking",
+  "receptor_pair": ["3uucb_noteq", "1qkua_noteq"],
+  "receptor_preparation": "Use unchanged validated output files from ProteinPreparation4ADT.ipynb",
+  "ligand_charge_model_in_notebook": "zero",
+  "ligand_preparation": "ETKDGv3 seed 42, MMFF94; verify original exact settings",
+  "vina_version": "1.2.7",
+  "exhaustiveness": 32,
+  "num_modes": 20,
+  "vina_seed": 42,
+  "boxes": {
+    "3uucb_noteq": {"center": null, "size": null, "receptor_pdbqt": null},
+    "1qkua_noteq": {"center": null, "size": null, "receptor_pdbqt": null}
+  },
+  "scoring": {
+    "status": "BLOCKED_UNTIL_scoring4_linux.py_AND_VALIDATED_MODEL_ARTIFACTS",
+    "agVina1_score_sign": null,
+    "threshold": null
+  }
+}
